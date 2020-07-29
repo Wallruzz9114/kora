@@ -16,9 +16,13 @@ class MessagesController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        view.backgroundColor = .systemGray
+        setUpUI()
     }
     
     // MARK: - Helper functionsws
-    
+    func setUpUI() {
+        view.backgroundColor = .white
+        
+        navigationItem.title = "Messages"
+    }
 }
