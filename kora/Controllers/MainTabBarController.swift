@@ -10,18 +10,34 @@ import UIKit
 class MainTabBarController: UITabBarController {
     
     // MARK: - Properties
+    let actionButton: UIButton = {
+        let button = UIButton(type: .system)
+        button.tintColor = .white
+        button.backgroundColor = .blue
+        button.setImage(UIImage(named: "new_tweet"), for: .normal)
+        return button
+    }()
     
     // MARK: - Lifecycle
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        view.backgroundColor = .red
-        
-        configureViewControllers()
+        setUpUI()
     }
     
     // MARK: - Helper functions
+    func setUpUI() {
+        // Add subviews
+        view.addSubview(actionButton)
+        
+        // Set constriants (autolayout)
+        actionButton.anchor(bottom: view.safeAreaLayoutGuide.bottomAnchor, right: view.rightAnchor, paddingBottom: 64, paddingRight: 16, width: 56, height: 56)
+        actionButton.layer.cornerRadius = 56 / 2
+        
+        // configure controllers
+        configureViewControllers()
+    }
+    
     func configureViewControllers() {
         let feedController = FeedController()
         let explorerController = ExplorerController()

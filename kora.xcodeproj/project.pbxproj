@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6374FAC824D7341F00B1DBC9 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6374FAC724D7341F00B1DBC9 /* Extensions.swift */; };
 		63C6386924C6D22F0043A8C9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C6386824C6D22F0043A8C9 /* AppDelegate.swift */; };
 		63C6386B24C6D22F0043A8C9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C6386A24C6D22F0043A8C9 /* SceneDelegate.swift */; };
 		63C6387024C6D22F0043A8C9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63C6386E24C6D22F0043A8C9 /* Main.storyboard */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6374FAC724D7341F00B1DBC9 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		63C6386524C6D22F0043A8C9 /* kora.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kora.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		63C6386824C6D22F0043A8C9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		63C6386A24C6D22F0043A8C9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -123,6 +125,7 @@
 		63C6388124C6D3DE0043A8C9 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				6374FAC724D7341F00B1DBC9 /* Extensions.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -200,6 +203,7 @@
 				63CC492A24C6D8F000D094F0 /* NotificationsController.swift in Sources */,
 				63C6386924C6D22F0043A8C9 /* AppDelegate.swift in Sources */,
 				63C6386B24C6D22F0043A8C9 /* SceneDelegate.swift in Sources */,
+				6374FAC824D7341F00B1DBC9 /* Extensions.swift in Sources */,
 				63CC492C24C6D90B00D094F0 /* MessagesController.swift in Sources */,
 				63CC492824C6D86E00D094F0 /* ExplorerController.swift in Sources */,
 				63C6388324C6D4A60043A8C9 /* MainTabBarController.swift in Sources */,
